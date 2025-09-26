@@ -23,13 +23,27 @@
 
 
 //BINARY SHIFT OPERATORS
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//    cout<<(7 << 2)<<endl; //28
+//    cout<<(7 >> 2)<<endl; //1
+//     return 0;
+// }
+//left shift = a << b =>  a * 2^b
+//right shift = a >> b => a / 2^b
+
+
+
+//PREDICT THE OUTPUT
+
 #include <iostream>
 using namespace std;
 
 int main() {
-   cout<<(7 << 2)<<endl;
-   cout<<(7 >> 2)<<endl;
+   cout << (~4) << endl; 
+      cout<<(8 >> 1)<<endl;
     return 0;
 }
-//left shift = a << b => a * 2^b
-//right shift = a >> b => a 
